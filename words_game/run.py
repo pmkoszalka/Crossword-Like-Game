@@ -6,7 +6,7 @@ if __name__ == '__main__':
     '''Setting up the variables'''
     randomize()
     diagram_new = diagram_letters_func()
-    words_from_diagram = words(diagram_new, 6)  # here you can choose the minimum lenght of the word
+    words_from_diagram = words(diagram_new, 6)  # here you can choose the minimum length of the word
     player_input = ''
     game_on = True
     player_answer_on = True
